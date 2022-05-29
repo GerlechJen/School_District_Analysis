@@ -21,11 +21,11 @@ The images below show the results of before and after the changes were made to t
  
 * How is the school summary affected?
 
-The school summary was greatly affected when the math and reading scores for 9th graders from Thomas High School was replaced with nan but the total number of students in Thomas High School was still used in our calculations. For that case, the average math score decreased from 83.418349	to 83.350937. The percentage passing math decreased from 93.272171 to 66.911315. The percentage passing reading decreased from 97.308869 to 69.663609. The overall passing percentage decreased from 90.948012 to 65.076453. It was only the average reading score that saw an increase from 83.848930 to 83.896082. The image below show the results after using the total number of students in Thomas High School for our calculations.
+The school summary was greatly affected when the math and reading scores for 9th graders from Thomas High School was replaced with NaNs, but the total number of students in Thomas High School was still used in our calculations. For that scenario, the average math score decreased from 83.418349	to 83.350937. The percentage passing math decreased from 93.272171 to 66.911315. The percentage passing reading decreased from 97.308869 to 69.663609. The overall passing percentage decreased from 90.948012 to 65.076453. It was only the average reading score that saw an increase from 83.848930 to 83.896082. The image below shows the results after using the total number of students in Thomas High School for our calculations.
 
 ![image3](https://github.com/GerlechJen/School_District_Analysis/blob/main/images_folder/new_school_summary.png)
 
-However, when the calculations were corrected taking into consideration just the 10th to 12th graders count of students, the average math score had the same changes with a decrease from 83.418349	to 83.350937. The percentage passing math had just a slight decrease from 93.272171 to 93.185690. The percentage passing reading decreased slightly too from 97.308869 to 97.018739. The overall passing percentage decreased just a little from 90.948012 to 90.630324 and the average reading score once again had an increase from 83.848930 to 83.896082. The corrected results is shown below; 
+However, when the calculations were corrected taking into consideration just the 10th to 12th graders count of students, the average math score had the same changes with a decrease from 83.418349	to 83.350937. The percentage passing math had just a slight decrease from 93.272171 to 93.185690. The percentage passing reading decreased slightly too from 97.308869 to 97.018739. The overall passing percentage decreased just a little from 90.948012 to 90.630324 and the average reading score once again had an increase from 83.848930 to 83.896082. The corrected results is shown below:
 
 ![image4](https://github.com/GerlechJen/School_District_Analysis/blob/main/images_folder/corrected_school_summary.png)
 
@@ -62,8 +62,8 @@ The results in the scores by school type data frame remained the same which impl
 
 ## Summary
 After reading and math scores for the ninth grade students at Thomas High School were replaced with NaNs, these four changes were observed in the updated school district analysis: 
-1. A new total student count of 38709 was calculated and used for further calculations.
-2. The number of 9th grade students in Thomas High School had to be deducted from the total number of students in the school before finding the passing math percentage, passing reading percentage and passing overall percentage of Thomas High School. 
+1. A new total student count of 38,709 was calculated and used for further calculations.
+2. The number of 9th grade students in Thomas High School had to be deducted from the total number of students in the school before finding the passing math percentage, passing reading percentage and passing overall percentage of Thomas High School accurately. 
 3. For the average math and reading scores by grade, no value could be produced for Thomas High School 9th graders. Instead, their average scores were represented by nan in the final table.
 4. The loc method was very useful in this second analysis as it made it possible to select and alter specific parts of the data for analysis.
 
