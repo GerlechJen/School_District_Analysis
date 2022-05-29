@@ -21,7 +21,7 @@ Before 9th grade math and reading scores was removed, Thomas High School was the
 * How does replacing the ninth-grade scores affect the following:
 - Math and reading scores by grade
 
-With the exception of the math and reading scores of Thomas High School 9th graders that was changed from  83.6 and 83.7 respectively to nan, the math and reading  scores by grades remained the same for the other schools.
+With the exception of the math and reading scores of Thomas High School 9th graders that was changed from  83.6 and 83.7 respectively to nan, the math and reading  scores by grades remained the same for the other schools. here
   
 - Scores by school spending
 For the scores by school spending, the average math score, average reading score, percentage passing math, percentage passing reading and the overall passing percentage reduced for Thomas High School when the ninth-grade scores were replaced with nan. 
