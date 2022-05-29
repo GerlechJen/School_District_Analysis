@@ -23,6 +23,8 @@ The images below show the results of before and after the changes were made to t
 
 The school summary was greatly affected when the math and reading scores for 9th graders from Thomas High School was replaced with nan but the total number of students in that grade was still included in our calculations. For that case, the average math score decreased from 83.418349	to 83.350937. The percentage passing math decreased from 93.272171 to 66.911315. The percentage passing reading decreased from 97.308869 to 69.663609. The overall passing percentage decreased from 90.948012 to 65.076453. It was only the average reading score that saw an increase from 83.848930 to 83.896082. The image below show the results after using the whole sample size which includes 9th graders count.
 
+![image3](https://github.com/GerlechJen/School_District_Analysis/blob/main/new_school_summary.png)
+
 
 
 However, when the calcultions were corrected taking into consideration just the 10th to 12th graders count of students, the average math score had the same changes with a decrease from 83.418349	to 83.350937. The percentage passing math had just a slight decrease from 93.272171 to 93.185690. The percentage passing reading decreased slightly too from 97.308869 to 97.018739. The overall passing percentage decreased just a little from 90.948012 to 90.630324. The average reading score once again had an increase from 83.848930 to 83.896082. The corrected results is shown below; 
