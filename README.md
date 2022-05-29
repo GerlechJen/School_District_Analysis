@@ -6,20 +6,29 @@ To perform this task, I had complete access to every student’s math and readin
 In this project, I have been asked to replace the math and reading scores for Thomas High School ninth graders with NaNs while keeping the rest of the data intact. Afterwards, I am to repeat the school analysis and write up a report to describe how these changes affected the overall analysis. These changes have been requested because there has been evidence of academic dishonesty in the reading and math grades of Thomas High School ninth graders.
 
 # Results: Using bulleted lists and images of DataFrames as support, address the following questions.
-- How is the district summary affected?
- When the math and reading scores for 9th graders from Thomas High School was removed, the district summary results was impacted very slightly. There was a small change in the Average Math Score. It decreased from 79.0 to 78.9. Aside that, every other value in the district summary remained the same. 
+* How is the district summary affected?
 
- The district summary 
-- How is the school summary affected?
-- The school summary was greatly affected when the math and reading scores for 9th graders from Thomas High School was removed. The average math score decreased from 83.418349	  to 83.350937. Average reading score increased from 83.848930 to 83.896082. The percentage passing math decreased from 93.272171 to 66.911315. The percentage passing reading decreased from 97.308869 to 69.663609. The overall passing percentage decreased from 90.948012 to 65.076453.
--The school summary 
-- How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
-  Before 9th grade math and reading scores was removed, Thomas High School was
+ When the math and reading scores for 9th graders from Thomas High School was removed, the district summary results was impacted very slightly. There was a small change in the Average Math Score. It decreased from 79.0 to 78.9. Aside that, every other value in the district summary remained the same. 
+ 
+* How is the school summary affected?
+
+The school summary was greatly affected when the math and reading scores for 9th graders from Thomas High School was removed. The average math score decreased from 83.418349	  to 83.350937. Average reading score increased from 83.848930 to 83.896082. The percentage passing math decreased from 93.272171 to 66.911315. The percentage passing reading decreased from 97.308869 to 69.663609. The overall passing percentage decreased from 90.948012 to 65.076453.
+
+* How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
+
+Before 9th grade math and reading scores was removed, Thomas High School was the second top performing school with overall passing percentage of 90.948012. After the changes were made, Thomas High School was still the second top performing school but with a reduced overall passing percentage of 90.630324.
+  
 - How does replacing the ninth-grade scores affect the following:
-	Math and reading scores by grade
-	Scores by school spending
-	Scores by school size
-	Scores by school type
+* Math and reading scores by grade
+
+With the exception of the math and reading scores of Thomas High School 9th graders that was changed from  83.6 and 83.7 respectively to nan, the math and reading  scores by grades remained the same for the other schools.
+  
+* Scores by school spending
+
+*	Scores by school size
+
+*	Scores by school type
+
 The output is shown in the image below:
 
 
