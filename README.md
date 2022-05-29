@@ -1,6 +1,6 @@
 # School District Analysis
 
-## Overview of the School District Analysis
+## Overview
 A Chief Data Scientist for a city school district who is to analyze data on student funding and student’s standardized test scores then make a report and presentation, asked me to assist her. The final presentation to be made would provide insights about performance trends and patterns which will inform discussions and strategic decisions at the school and district level.
 
 To perform this task, I had complete access to every student’s math and reading scores, as well as, other data on the schools they attend. I completed the analysis and showcased trends in school performance which helped the school board and superintendents to make decisions regarding the school budgets and priorities.
