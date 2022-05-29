@@ -23,22 +23,26 @@ However when the calcultions were corrected taking into consideration just the 1
 Before 9th grade math and reading scores was removed, Thomas High School was the second top performing school with overall passing percentage of 90.948012. After the changes were made and the averages calculated using just the 10th to 12th graders scores and population, Thomas High School was still the second top performing school but with a reduced overall passing percentage of 90.630324.
   
 * How does replacing the ninth-grade scores affect the following:
-- Math and reading scores by grade
+1. Math and reading scores by grade
 
 With the exception of the math score of Thomas High School 9th graders that was changed from  83.6 to nan, the math scores by grades remained the same for the other schools. The reading scores also remained the same for the other schools while the reading score of Thomas High School 9th graders changed from  83.7 to nan.
   
-- Scores by school spending
+2. Scores by school spending
+
 Looking at the overal spending summary dataframe,  the results of the students performance for the different spending ranges remained the same as when the 9th graders scores had not been removed. Therefore, replacing the ninth-grade scores did not have any impact on this result. 
 
--	Scores by school size
+3.	Scores by school size
+
 From the size summary dataframe, replacing the ninth-grade scores did not have any effect on the results as it remained the same. 
 
--	Scores by school type
+4. Scores by school type
+
 The results in the scores by school type data frame remained the same which implies that replacing the ninth-grade scores had no effect on the previous results presented.
 
 ## Summary
-Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
+After reading and math scores for the ninth grade students at Thomas High School were replaced with NaNs, these four changes were observed in the updated school district analysis: 
 1. A new total student count of 38709 had to be calculated and used for further calculations.
 2. The number of 9th grade students in Thomas High School had to be deducted from the total number of students in the school before finding the passing math percentage, passing reading percentage and passing overall percentage. 
 3. For the final average math and reading scores by grade, no value could be produced for Thomas High School 9th graders. Instead, their average scores were represented by nan in the table.
+4. 
 
