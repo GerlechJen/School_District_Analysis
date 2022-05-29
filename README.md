@@ -10,7 +10,9 @@ In this project, I have been asked to replace the math and reading scores for Th
 ## Results
 * How is the district summary affected?
 
- When the math and reading scores of 9th graders from Thomas High School was removed, the district summary results was impacted very slightly. There was a small change in the Average Math Score. It decreased from 79.0 to 78.9. Aside that, every other value in the district summary remained the same. The images below show the results of before and after the changes were made to the data respectively. 
+When the math and reading scores of 9th graders from Thomas High School was removed, the district summary results was impacted very slightly. There was a small change in the Average Math Score. It decreased from 79.0 to 78.9. Aside that, every other value in the district summary remained the same. 
+
+The images below show the results of before and after the changes were made to the data respectively. 
  
  ![image1](https://github.com/GerlechJen/School_District_Analysis/blob/main/old_district_summary.png)
  
