@@ -18,16 +18,16 @@ The school summary was greatly affected when the math and reading scores for 9th
 
 Before 9th grade math and reading scores was removed, Thomas High School was the second top performing school with overall passing percentage of 90.948012. After the changes were made, Thomas High School was still the second top performing school but with a reduced overall passing percentage of 90.630324.
   
-- How does replacing the ninth-grade scores affect the following:
-* Math and reading scores by grade
+* How does replacing the ninth-grade scores affect the following:
+- Math and reading scores by grade
 
 With the exception of the math and reading scores of Thomas High School 9th graders that was changed from  83.6 and 83.7 respectively to nan, the math and reading  scores by grades remained the same for the other schools.
   
-* Scores by school spending
+- Scores by school spending
 
-*	Scores by school size
+-	Scores by school size
 
-*	Scores by school type
+-	Scores by school type
 
 The output is shown in the image below:
 
