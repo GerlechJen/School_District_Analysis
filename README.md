@@ -14,26 +14,28 @@ When the math and reading scores of 9th graders from Thomas High School was remo
 
 The images below show the results of before and after the changes were made to the data respectively. 
  
- ![image1](https://github.com/GerlechJen/School_District_Analysis/blob/main/old_district_summary.png)
+ ![image1](https://github.com/GerlechJen/School_District_Analysis/blob/main/images_folder/old_district_summary.png)
  
- ![image2](https://github.com/GerlechJen/School_District_Analysis/blob/main/new_district_summary.png)
+ ![image2](https://github.com/GerlechJen/School_District_Analysis/blob/main/images_folder/new_district_summary.png)
  
  
 * How is the school summary affected?
 
 The school summary was greatly affected when the math and reading scores for 9th graders from Thomas High School was replaced with nan but the total number of students in Thomas High School was still used in our calculations. For that case, the average math score decreased from 83.418349	to 83.350937. The percentage passing math decreased from 93.272171 to 66.911315. The percentage passing reading decreased from 97.308869 to 69.663609. The overall passing percentage decreased from 90.948012 to 65.076453. It was only the average reading score that saw an increase from 83.848930 to 83.896082. The image below show the results after using the total number of students in Thomas High School for our calculations.
 
-![image3](https://github.com/GerlechJen/School_District_Analysis/blob/main/new_school_summary.png)
+![image3](https://github.com/GerlechJen/School_District_Analysis/blob/main/images_folder/new_school_summary.png)
 
 However, when the calculations were corrected taking into consideration just the 10th to 12th graders count of students, the average math score had the same changes with a decrease from 83.418349	to 83.350937. The percentage passing math had just a slight decrease from 93.272171 to 93.185690. The percentage passing reading decreased slightly too from 97.308869 to 97.018739. The overall passing percentage decreased just a little from 90.948012 to 90.630324 and the average reading score once again had an increase from 83.848930 to 83.896082. The corrected results is shown below; 
 
-![image4](https://github.com/GerlechJen/School_District_Analysis/blob/main/corrected_school_summary.png)
+![image4](https://github.com/GerlechJen/School_District_Analysis/blob/main/images_folder/corrected_school_summary.png)
 
 * How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
 
 Before 9th grade math and reading scores was removed, Thomas High School was the second top performing school with overall passing percentage of 90.948012. After the changes were made and the averages calculated using just the 10th to 12th graders scores and population, Thomas High School was still the second top performing school but with a reduced overall passing percentage of 90.630324. The two different results are presented below:
 
-![image5](https://github.com/GerlechJen/School_District_Analysis/blob/main/old_top_schools.png)
+![image5](https://github.com/GerlechJen/School_District_Analysis/blob/main/images_folder/old_top_schools.png)
+
+![images6](https://github.com/GerlechJen/School_District_Analysis/blob/main/images_folder/new_top_schools.png)
   
 * How does replacing the ninth-grade scores affect the following:
 1. Math and reading scores by grade
@@ -44,13 +46,19 @@ With the exception of the math score of Thomas High School 9th graders that was 
 
 Looking at the overal spending summary dataframe,  the results of the students performance for the different spending ranges remained the same as when the 9th graders scores had not been removed. Therefore, replacing the ninth-grade scores did not have any impact on this result. 
 
+![image7](https://github.com/GerlechJen/School_District_Analysis/blob/main/images_folder/scores_by_school_spending.png)
+
 3.	Scores by school size
 
 From the size summary dataframe, replacing the ninth-grade scores did not have any effect on the results as it remained the same. 
 
+![image8](https://github.com/GerlechJen/School_District_Analysis/blob/main/images_folder/scores_by_school_size.png)
+
 4. Scores by school type
 
 The results in the scores by school type data frame remained the same which implies that replacing the ninth-grade scores had no effect on the previous results presented.
+
+![image9](https://github.com/GerlechJen/School_District_Analysis/blob/main/images_folder/scores_by_school_type.png)
 
 ## Summary
 After reading and math scores for the ninth grade students at Thomas High School were replaced with NaNs, these four changes were observed in the updated school district analysis: 
