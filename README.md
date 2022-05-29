@@ -27,7 +27,7 @@ The school summary was greatly affected when the math and reading scores for 9th
 
 However, when the calculations were corrected taking into consideration just the 10th to 12th graders count of students, the average math score had the same changes with a decrease from 83.418349	to 83.350937. The percentage passing math had just a slight decrease from 93.272171 to 93.185690. The percentage passing reading decreased slightly too from 97.308869 to 97.018739. The overall passing percentage decreased just a little from 90.948012 to 90.630324 and the average reading score once again had an increase from 83.848930 to 83.896082. The corrected results is shown below; 
 
-![image4]()
+![image4](https://github.com/GerlechJen/School_District_Analysis/blob/main/corrected_school_summary.png)
 
 * How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
 
