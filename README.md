@@ -67,3 +67,8 @@ After reading and math scores for the ninth grade students at Thomas High School
 3. The dataframe showing the average math and reading scores by grade had the values for Thomas High School 9th graders represented by nan.
 4. The loc method was very useful in this second analysis as it made it possible to select specific rows of a column not factoring in Thomas High School ninth graders  for the analysis.
 
+----
+
+**Completed by:** Jennifer Anno-Kusi
+
+**Email:** jannokusi@gmail.com 
